@@ -40,4 +40,8 @@ public abstract class Entidad {
         int danoFinal = Math.max(1, cantidad - reduccion); 
         this.vidaActual = Math.max(0, this.vidaActual - danoFinal);
     }
+
+    public void descontarMana(int cantidad) {
+        this.manaActual = Math.max(0, this.manaActual - cantidad);
+    }
 }

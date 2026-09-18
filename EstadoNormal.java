@@ -5,7 +5,7 @@ public class EstadoNormal implements Estado {
     }
 
     @Override
-public void  alIniciarTurno(Jugador jugador) {
+public void  alIniciarTurno(Entidad entidad) {
     // Código correspondiente...
 }
 }
